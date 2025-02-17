@@ -1,9 +1,7 @@
-const rapidApiKey = "d8bbccf172msh744a6d844ea5a80p101835jsn08be4d125c45";
-
 const options = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": rapidApiKey,
+    "X-RapidAPI-Key": import.meta.env.VITE_RAPID_API_KEY,
     "X-RapidAPI-Host": "imdb236.p.rapidapi.com",
   },
 };
